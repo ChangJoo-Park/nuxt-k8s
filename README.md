@@ -75,7 +75,7 @@ minikube service app
 ...코드 수정 후
 
 ```bash
-docker build -t app:0.2
+docker build -t app:0.2 .
 kubectl set image deployment/app app=app:0.2
 ```
 
