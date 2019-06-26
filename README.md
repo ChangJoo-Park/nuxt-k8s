@@ -33,7 +33,7 @@ eval $(minikube docker-env -u) # 비활성화
 ### Docker 이미지 만들기
 
 ```bash
-docker build -t app:0.1
+docker build -t app:0.1 .
 ```
 
 ### 도커 이미지로 실행해보기 (선택사항)
