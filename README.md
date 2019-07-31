@@ -30,6 +30,12 @@ eval $(minikube docker-env) # minikube에서 할때
 eval $(minikube docker-env -u) # 비활성화
 ```
 
+### Minikube 시작
+
+```bash
+minikube start
+```
+
 ### Docker 이미지 만들기
 
 ```bash
